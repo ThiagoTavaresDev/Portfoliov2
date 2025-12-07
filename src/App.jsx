@@ -12,7 +12,7 @@ import ScrollProgress from './components/ScrollProgress';
 
 function App() {
   return (
-    <div className="App bg-base-100 min-h-screen font-sans text-base-content selection:bg-primary selection:text-white">
+    <div className="App bg-base-100 min-h-screen font-sans text-base-content selection:bg-primary selection:text-white overflow-x-hidden">
       <ScrollProgress />
       <Navbar />
       <Hero />
