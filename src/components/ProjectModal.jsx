@@ -44,16 +44,26 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                                     {project.description}
                                 </p>
                                 <p className="text-gray-400 mt-4 text-sm">
-                                    Aqui você pode adicionar mais detalhes técnicos sobre o projeto, desafios enfrentados e soluções implementadas.
+                                    {project.details}
                                 </p>
                             </div>
 
                             <div className="flex gap-4 mt-auto pt-6 border-t border-white/10">
-                                <a href="#" className="btn btn-primary flex-1 text-white gap-2">
+                                <a
+                                    href={project.demoUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className={`btn btn-primary flex-1 text-white gap-2 ${(!project.demoUrl || project.demoUrl === '#') ? 'btn-disabled opacity-50 cursor-not-allowed' : ''}`}
+                                >
                                     <ExternalLink className="w-4 h-4" />
                                     Ver Demo
                                 </a>
-                                <a href="#" className="btn btn-outline flex-1 gap-2">
+                                <a
+                                    href={project.repoUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className={`btn btn-outline flex-1 gap-2 ${(!project.repoUrl || project.repoUrl === '#') ? 'btn-disabled opacity-50 cursor-not-allowed' : ''}`}
+                                >
                                     <Github className="w-4 h-4" />
                                     Código
                                 </a>

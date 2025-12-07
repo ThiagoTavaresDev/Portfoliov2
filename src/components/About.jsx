@@ -21,10 +21,10 @@ const About = () => {
                         <div className="text-base md:text-lg text-gray-400 leading-relaxed space-y-6">
                             <p>
                                 Sou um Desenvolvedor Web com uma trajetória que une a solidez de tecnologias clássicas
-                                como Visual FoxPro e SQL Server com a agilidade do desenvolvimento moderno em React e Node.js.
+                                como Visual FoxPro e SQL Server com a agilidade do desenvolvimento moderno em React, C# e Node.js.
                             </p>
                             <p>
-                                Tenho experiência em .NET C# e banco de dados, o que me permite ter uma visão completa
+                                Tenho experiência acadêmica em .NET C# e banco de dados, o que me permite ter uma visão completa
                                 do desenvolvimento de software, desde a manutenção de sistemas legados até a criação
                                 de novas aplicações web performáticas.
                             </p>

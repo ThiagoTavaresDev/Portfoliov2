@@ -11,15 +11,15 @@ const Contact = () => {
                 </p>
 
                 <div className="flex flex-col md:flex-row justify-center gap-6">
-                    <a href="mailto:thiago@example.com" className="btn btn-primary btn-lg text-white gap-2">
+                    <a href="mailto:contato.thiago.tavares.dev@gmail.com" target='_blank' className="btn btn-primary btn-lg text-white gap-2">
                         <Mail className="w-5 h-5" />
                         Enviar Email
                     </a>
-                    <a href="#" className="btn btn-outline btn-lg gap-2">
+                    <a href="https://linkedin.com/in/thiagotavaresdev" target='_blank' className="btn btn-outline btn-lg gap-2">
                         <Linkedin className="w-5 h-5" />
                         LinkedIn
                     </a>
-                    <a href="#" className="btn btn-outline btn-lg gap-2">
+                    <a href="https://github.com/ThiagoTavaresDev" target='_blank' className="btn btn-outline btn-lg gap-2">
                         <Github className="w-5 h-5" />
                         GitHub
                     </a>

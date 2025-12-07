@@ -11,21 +11,30 @@ const Projects = () => {
             title: "Foodcom",
             description: "Sistema de restaurante com gerenciamento de pedidos, clientes e produtos.",
             image: "/images/foodcom.png",
-            tags: ["HTML5", "Bootstrap", "C#", "Javascript", "Sql Server"]
+            tags: ["HTML5", "Bootstrap", "C#", "Javascript", "Sql Server"],
+            demoUrl: "#",
+            repoUrl: "https://github.com/ThiagoTavaresDev/FoodCom",
+            details: "Desenvolvido com ASP.NET Core seguindo a arquitetura MVC (Model-View-Controller). O sistema utiliza Entity Framework para ORM e SQL Server como banco de dados. Possui estrutura completa de Controllers, Models e Views, gerenciando todo o fluxo de pedidos e cadastro de produtos com validações robustas no backend."
         },
         {
             id: 2,
             title: "Barbearia Fila",
             description: "Sistema de barbearia em produção com gerenciamento de agendamentos e filas em tempo real além de diversas funcionalidades para auxiliar no dia a dia do barbeiro.",
             image: "/images/barber-panel.png",
-            tags: ["React", "Tailwind CSS", "Lucide Icons", "Firebase"]
+            tags: ["React", "Tailwind CSS", "Lucide Icons", "Firebase"],
+            demoUrl: "https://barberia-fila.vercel.app/barber",
+            repoUrl: "https://github.com/ThiagoTavaresDev/Barberia-fila",
+            details: "Aplicação Single Page Application (SPA) moderna construída com React 19 e TailwindCSS. Utiliza Firebase Firestore para atualização de dados em tempo real via listeners, permitindo sincronização instantânea da fila entre dispositivos. Integração com APIs externas como WhatsApp Web para notificações."
         },
         {
             id: 3,
             title: "Portfolio V1",
             description: "Primeira versão do meu portfólio pessoal.",
             image: "/images/v1portfolio.png",
-            tags: ["HTML5", "CSS3", "JavaScript"]
+            tags: ["HTML5", "CSS3", "JavaScript"],
+            demoUrl: "https://portfolio-thiagotavaresdevs-projects.vercel.app",
+            repoUrl: "https://github.com/ThiagoTavaresDev/Portfolio",
+            details: "Projeto desenvolvido com tecnologias web fundamentais (HTML5, CSS3 e JavaScript Vanilla) para consolidar conhecimentos em frontend. Foco em responsividade, animações CSS puras e manipulação direta do DOM sem uso de frameworks."
         }
     ];
 

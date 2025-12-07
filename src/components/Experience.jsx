@@ -8,6 +8,7 @@ const Experience = () => {
             id: 1,
             role: "Trainee em Desenvolvimento",
             company: "Sofis Tecnologia",
+            sector: "Health Tech",
             period: "Set 2024 - Presente",
             description: "Atuação no projeto Hemote Plus, um sistema de gestão para hemoterapia. Desenvolvimento e manutenção utilizando Visual FoxPro e SQL Server, garantindo a integridade e eficiência no ciclo do sangue."
         },
@@ -15,6 +16,7 @@ const Experience = () => {
             id: 2,
             role: "Estagiário em Desenvolvimento",
             company: "Sofis Tecnologia",
+            sector: "Health Tech",
             period: "Fev 2024 - Set 2024",
             description: "Início da jornada no setor de saúde, aprendendo as regras de negócio de hemoterapia e contribuindo com correções e melhorias no sistema desktop legado."
         },
@@ -22,8 +24,9 @@ const Experience = () => {
             id: 3,
             role: "Estudante de Análise e Des. de Sistemas",
             company: "Universidade Veiga de Almeida",
+            sector: "Educação",
             period: "2023 - 2025",
-            description: "Formação acadêmica focada em engenharia de software, algoritmos e desenvolvimento web/mobile. Base teórica sólida aplicada diariamente na prática profissional."
+            description: "Formação acadêmica focada em desenvolvimento de aplicações, algoritmos e desenvolvimento web/mobile. Base teórica sólida aplicada diariamente na prática profissional."
         }
     ];
 
@@ -70,8 +73,11 @@ const Experience = () => {
                                             {exp.period}
                                         </div>
                                         <h3 className="text-xl font-bold text-white mb-1 group-hover:text-primary transition-colors">{exp.role}</h3>
-                                        <div className="text-gray-400 font-medium mb-4">{exp.company}</div>
-                                        <p className="text-gray-500 text-sm leading-relaxed">
+                                        <div className="text-gray-400 font-medium">{exp.company}</div>
+                                        {exp.sector && (
+                                            <div className="text-primary/70 text-xs font-medium mb-4 mt-1 tracking-wide uppercase">{exp.sector}</div>
+                                        )}
+                                        <p className={`text-gray-500 text-sm leading-relaxed ${!exp.sector ? 'mt-4' : ''}`}>
                                             {exp.description}
                                         </p>
                                     </div>

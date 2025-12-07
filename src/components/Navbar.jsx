@@ -29,7 +29,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="#contact" className="btn btn-primary btn-sm text-white">Fale Comigo</a>
+        <a href="https://wa.me/5521964415954?text=Olá%2C%20Tudo%20bem%20com%20você%20?" target="_blank" className="btn btn-primary btn-sm text-white">Fale Comigo</a>
       </div>
     </div>
   );

@@ -37,13 +37,13 @@ const Hero = () => {
 
                     <div className="flex gap-4 mb-8">
                         <a href="#projects" className="btn btn-primary text-white px-8">Ver Projetos</a>
-                        <a href="#contact" className="btn btn-outline btn-secondary px-8">Fale Comigo</a>
+                        <a href="https://wa.me/5521964415954?text=Olá%2C%20Tudo%20bem%20com%20você%20?" target="_blank" className="btn btn-outline btn-secondary px-8">Fale Comigo</a>
                     </div>
 
                     <div className="flex gap-6 text-gray-400">
-                        <a href="#" className="hover:text-white transition-colors"><Github className="w-6 h-6" /></a>
-                        <a href="#" className="hover:text-white transition-colors"><Linkedin className="w-6 h-6" /></a>
-                        <a href="mailto:thiago@example.com" className="hover:text-white transition-colors"><Mail className="w-6 h-6" /></a>
+                        <a href="https://github.com/ThiagoTavaresDev" target='_blank' className="hover:text-white transition-colors"><Github className="w-6 h-6" /></a>
+                        <a href="https://linkedin.com/in/thiagotavaresdev" target='_blank' className="hover:text-white transition-colors"><Linkedin className="w-6 h-6" /></a>
+                        <a href="mailto:contato.thiago.tavares.dev@gmail.com" target='_blank' className="hover:text-white transition-colors"><Mail className="w-6 h-6" /></a>
                     </div>
                 </motion.div>
 

@@ -12,7 +12,7 @@ const Skills = () => {
         {
             title: "Backend",
             icon: <Database className="w-6 h-6 text-secondary" />,
-            skills: [".NET C#", "Node.js", "SQL Server", "Express", "API REST"]
+            skills: [".NET C#","ASP.NET Core", "Node.js", "SQL Server", "Express", "API REST"]
         },
         {
             title: "Desktop",
